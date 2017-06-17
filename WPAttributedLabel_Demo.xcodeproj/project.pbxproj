@@ -15,6 +15,12 @@
 		A4A2CA801EF4E8E90009F2EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4A2CA7E1EF4E8E90009F2EA /* LaunchScreen.storyboard */; };
 		A4A2CA8B1EF4E8EA0009F2EA /* WPAttributedLabel_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A2CA8A1EF4E8EA0009F2EA /* WPAttributedLabel_DemoTests.m */; };
 		A4A2CA961EF4E8EA0009F2EA /* WPAttributedLabel_DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A2CA951EF4E8EA0009F2EA /* WPAttributedLabel_DemoUITests.m */; };
+		A4A2CAAB1EF4E9520009F2EA /* WPAttributedStyleAction.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A2CAA61EF4E9520009F2EA /* WPAttributedStyleAction.m */; };
+		A4A2CAAC1EF4E9520009F2EA /* WPHotspotLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A2CAA81EF4E9520009F2EA /* WPHotspotLabel.m */; };
+		A4A2CAAD1EF4E9520009F2EA /* WPTappableLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A2CAAA1EF4E9520009F2EA /* WPTappableLabel.m */; };
+		A4A2CAB21EF4E9640009F2EA /* NSMutableString+TagReplace.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A2CAAF1EF4E9640009F2EA /* NSMutableString+TagReplace.m */; };
+		A4A2CAB31EF4E9640009F2EA /* NSString+WPAttributedMarkup.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A2CAB11EF4E9640009F2EA /* NSString+WPAttributedMarkup.m */; };
+		A4A2CAB51EF4EC7B0009F2EA /* redPoint.png in Resources */ = {isa = PBXBuildFile; fileRef = A4A2CAB41EF4EC7B0009F2EA /* redPoint.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,17 @@
 		A4A2CA911EF4E8EA0009F2EA /* WPAttributedLabel_DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WPAttributedLabel_DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4A2CA951EF4E8EA0009F2EA /* WPAttributedLabel_DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPAttributedLabel_DemoUITests.m; sourceTree = "<group>"; };
 		A4A2CA971EF4E8EA0009F2EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4A2CAA51EF4E9520009F2EA /* WPAttributedStyleAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPAttributedStyleAction.h; sourceTree = "<group>"; };
+		A4A2CAA61EF4E9520009F2EA /* WPAttributedStyleAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPAttributedStyleAction.m; sourceTree = "<group>"; };
+		A4A2CAA71EF4E9520009F2EA /* WPHotspotLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPHotspotLabel.h; sourceTree = "<group>"; };
+		A4A2CAA81EF4E9520009F2EA /* WPHotspotLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPHotspotLabel.m; sourceTree = "<group>"; };
+		A4A2CAA91EF4E9520009F2EA /* WPTappableLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPTappableLabel.h; sourceTree = "<group>"; };
+		A4A2CAAA1EF4E9520009F2EA /* WPTappableLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPTappableLabel.m; sourceTree = "<group>"; };
+		A4A2CAAE1EF4E9640009F2EA /* NSMutableString+TagReplace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableString+TagReplace.h"; sourceTree = "<group>"; };
+		A4A2CAAF1EF4E9640009F2EA /* NSMutableString+TagReplace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableString+TagReplace.m"; sourceTree = "<group>"; };
+		A4A2CAB01EF4E9640009F2EA /* NSString+WPAttributedMarkup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+WPAttributedMarkup.h"; sourceTree = "<group>"; };
+		A4A2CAB11EF4E9640009F2EA /* NSString+WPAttributedMarkup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+WPAttributedMarkup.m"; sourceTree = "<group>"; };
+		A4A2CAB41EF4EC7B0009F2EA /* redPoint.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redPoint.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +98,8 @@
 		A4A2CA641EF4E8E90009F2EA = {
 			isa = PBXGroup;
 			children = (
+				A4A2CAA41EF4E9440009F2EA /* WPAttributedMarkup */,
+				A4A2CAA31EF4E93F0009F2EA /* Extras */,
 				A4A2CA6F1EF4E8E90009F2EA /* WPAttributedLabel_Demo */,
 				A4A2CA891EF4E8EA0009F2EA /* WPAttributedLabel_DemoTests */,
 				A4A2CA941EF4E8EA0009F2EA /* WPAttributedLabel_DemoUITests */,
@@ -106,6 +125,7 @@
 				A4A2CA761EF4E8E90009F2EA /* ViewController.h */,
 				A4A2CA771EF4E8E90009F2EA /* ViewController.m */,
 				A4A2CA791EF4E8E90009F2EA /* Main.storyboard */,
+				A4A2CAB41EF4EC7B0009F2EA /* redPoint.png */,
 				A4A2CA7C1EF4E8E90009F2EA /* Assets.xcassets */,
 				A4A2CA7E1EF4E8E90009F2EA /* LaunchScreen.storyboard */,
 				A4A2CA811EF4E8EA0009F2EA /* Info.plist */,
@@ -138,6 +158,32 @@
 				A4A2CA971EF4E8EA0009F2EA /* Info.plist */,
 			);
 			path = WPAttributedLabel_DemoUITests;
+			sourceTree = "<group>";
+		};
+		A4A2CAA31EF4E93F0009F2EA /* Extras */ = {
+			isa = PBXGroup;
+			children = (
+				A4A2CAA51EF4E9520009F2EA /* WPAttributedStyleAction.h */,
+				A4A2CAA61EF4E9520009F2EA /* WPAttributedStyleAction.m */,
+				A4A2CAA71EF4E9520009F2EA /* WPHotspotLabel.h */,
+				A4A2CAA81EF4E9520009F2EA /* WPHotspotLabel.m */,
+				A4A2CAA91EF4E9520009F2EA /* WPTappableLabel.h */,
+				A4A2CAAA1EF4E9520009F2EA /* WPTappableLabel.m */,
+			);
+			name = Extras;
+			path = WPAttributedLabel_Demo/Extras;
+			sourceTree = "<group>";
+		};
+		A4A2CAA41EF4E9440009F2EA /* WPAttributedMarkup */ = {
+			isa = PBXGroup;
+			children = (
+				A4A2CAAE1EF4E9640009F2EA /* NSMutableString+TagReplace.h */,
+				A4A2CAAF1EF4E9640009F2EA /* NSMutableString+TagReplace.m */,
+				A4A2CAB01EF4E9640009F2EA /* NSString+WPAttributedMarkup.h */,
+				A4A2CAB11EF4E9640009F2EA /* NSString+WPAttributedMarkup.m */,
+			);
+			name = WPAttributedMarkup;
+			path = WPAttributedLabel_Demo/WPAttributedMarkup;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,6 +292,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4A2CAB51EF4EC7B0009F2EA /* redPoint.png in Resources */,
 				A4A2CA801EF4E8E90009F2EA /* LaunchScreen.storyboard in Resources */,
 				A4A2CA7D1EF4E8E90009F2EA /* Assets.xcassets in Resources */,
 				A4A2CA7B1EF4E8E90009F2EA /* Main.storyboard in Resources */,
@@ -273,8 +320,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4A2CAB21EF4E9640009F2EA /* NSMutableString+TagReplace.m in Sources */,
 				A4A2CA781EF4E8E90009F2EA /* ViewController.m in Sources */,
+				A4A2CAB31EF4E9640009F2EA /* NSString+WPAttributedMarkup.m in Sources */,
 				A4A2CA751EF4E8E90009F2EA /* AppDelegate.m in Sources */,
+				A4A2CAAC1EF4E9520009F2EA /* WPHotspotLabel.m in Sources */,
+				A4A2CAAB1EF4E9520009F2EA /* WPAttributedStyleAction.m in Sources */,
+				A4A2CAAD1EF4E9520009F2EA /* WPTappableLabel.m in Sources */,
 				A4A2CA721EF4E8E90009F2EA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
