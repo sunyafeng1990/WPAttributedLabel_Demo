@@ -1,2 +1,2 @@
 # WPAttributedLabel_Demo
-# WPAttributedLabel_Demo
+最近在项目中使用到给label中固定的文字设置颜色和下划线以及点击事件的功能,使用到了WPAttributedMarkup这个代码, WPAttributedMarkup 是一个队富文本编辑集成的分类,使用比较简单,基本用法类似,就是想更直观的熟悉一下使用方法。
